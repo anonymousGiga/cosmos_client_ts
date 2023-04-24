@@ -1,0 +1,28 @@
+{
+  "name": "cosmos-client-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "dev": "ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "Andy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.15.4",
+    "@dfinity/identity": "^0.15.4",
+    "@dfinity/principal": "^0.15.4",
+    "@dfinity/candid": "^0.15.5",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
